@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>Cheeze Inc.</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+        }
+        body{
+            background-color: #000000;
+        }
+        body img{
+            z-index: -10000000;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+
+        }
+        section{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            height: 100vh;
+        }
+        section img{
+            height: 20%;
+            width: auto;
+            background-color: #00000055;    
+        }
+        .side-panel{
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            width: 250px;
+            position: absolute;
+            
+        }
+        aside {
+
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            height: 100%;
+            gap: 20px;
+            vertical-align: middle;
+            justify-content: center;
+            position: absolute;
+            left: 0;
+            
+            
+            
+        }
+        aside a{
+            color: white;
+            background-color: #000000aa;
+            text-decoration: none;
+            height: 100px;
+            text-align: center;
+            width: 200px;
+            float: left;
+            font-family: 'Open Sans', Verdana, Times, serif;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            font-weight: bold;
+            transition: 300ms;
+
+
+        }
+        aside a:active{
+            background-color: #ffffff65;
+            color: white;
+            width: 100%;
+
+       }
+       aside a:hover{
+            background-color: #ffffff65;
+            color: black;
+            width: 100%;
+
+        }
+       .a, .b, .c, .d{
+            width: 170px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="images/bg.jpg">
+    <nav>
+        <div class="side-panel">
+            <aside>
+                <a class="a" href="index.html">HOME</a>
+                <a class="b" href="packages.html">PACKAGES</a>
+                <a class="b" href="about.html">ABOUT US</a>
+                <a class="c" href="calendar.html">CALENDAR</a>
+                <a class="d" href="contact.html">CONTACT US</a>
+            </aside>
+        </div>
+    </nav>
+    <main>
+        <section>
+        <img src="images/logo.png">
+        </section>
+
+    </main>
+</body>
+</html>
