@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+
+}
+body{
+    background-color: #167070;
+    height: 100%;
+    font-family: 'Open Sans',Verdana, Times, serif;
+    color: orange;
+    width: 100%;
+}
+nav{
+    display: flex;
+}
+main{
+    height:auto;
+    width: 100%;
+}
+#logo3{
+    height: 100px;
+    width: 20%;
+}
+#logo{
+    height: 100px;
+    width: 100%;
+}
+#links{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 60%;
+}
+.a, .b, .c, .d{
+    text-decoration: none;
+    font-family: Verdana, Times, serif;
+    color: black;
+    transition: 300ms;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 25%;
+}
+button{
+    height: 50px;
+    width: 90%;
+    border-radius: 25px;
+    background-color: #464646;
+    color: white;
+    transition: 300ms;
+
+}
+button:hover{
+    background-color: grey;
+}
+    
+.b:hover,.c:hover,.d:hover{
+    background-color: #000000aa;
+    color: white;
+    
+}
+#signup{
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+::selection{
+    background-color: white;
+    color: orange;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+#media{
+    width: 70%;
+}
+#legallinks{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 30%;
+}
+#legallinks a{
+    color: orange;
+    text-decoration: none;
+    font-family: 'Open Sans', Verdana, Times, serif;
+
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+
+}
+footer img{
+    height:100px;
+    width:100px;
+}
+
+#welcome{
+    background-color: #00000077;
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 60px;
+}
+.image{
+    width: 45%;
+}
+.text{
+    width: 55%;
+}
+.image img{
+    height: 500px;
+    width: 100%;
+    border-radius: 10000px;
+}
+.text button{
+    height: 30px;
+    width: 200px;
+}
+span{
+    font-weight: bold;
+}
+#packages{
+    display: flex;
+}
+#package{
+    width: 20%;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
